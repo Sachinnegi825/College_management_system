@@ -9,10 +9,11 @@ import Login from './components/Login/Login';
 import Signup from './components/Signup/Signup';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import HomePage from './components/HomePage/HomePage';
+
 import Layout from './Pages/Layout';
 import ErrorPage from './Pages/ErrorPage';
 import 'react-toastify/dist/ReactToastify.css';
+import HomePage from './components/Homepage/Homepage';
 
 
 
