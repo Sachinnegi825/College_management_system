@@ -31,6 +31,7 @@ const CourseManagement = () => {
         <h2>Courses</h2>
         <button onClick={goToAddCourse} className="add-btn">Add Course</button>
       </div>
+      <div style={{overflowX:"auto"}}>
       <table>
         <thead>
           <tr>
@@ -55,6 +56,8 @@ const CourseManagement = () => {
           ))}
         </tbody>
       </table>
+      </div>
+   
     </div>
   );
 };

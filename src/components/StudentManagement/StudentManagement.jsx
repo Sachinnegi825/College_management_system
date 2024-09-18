@@ -35,6 +35,7 @@ const StudentManagement = () => {
         <h2>Student List</h2>
         <button onClick={goToAddStudent} className="add-btn">Add Student</button>
       </div>
+      <div style={{overflowX:"auto"}}>
       <table>
         <thead>
           <tr>
@@ -59,6 +60,8 @@ const StudentManagement = () => {
           ))}
         </tbody>
       </table>
+      </div>
+    
     </div>
   );
 };
